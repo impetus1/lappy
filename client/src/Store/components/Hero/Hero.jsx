@@ -25,8 +25,7 @@ class Hero extends Component {
                 paragraph
                 className={classes.mainFeaturedPostContentText}
               >
-                Boutique de terrarios y suculentas. Producidas en casa y
-                garantizadas.
+                Affordable starter laptops for sale in the Tampa Bay Area
               </Typography>
             </div>
           </Grid>

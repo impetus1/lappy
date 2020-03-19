@@ -84,9 +84,9 @@ router.post('', jsonParser, (req, res) => {
         console.log("Total: " + result.total);
         console.log("Date: " + result.date);
         transporter.sendMail({
-            from: 'terralumx@gmail.com', // sender address
+            from: 'greenteam2021@gmail.com', // sender address
             to: result.userEmail, // list of receivers
-            subject: 'Terralu - Orden Recibida', // Subject line
+            subject: 'LaptopLiquidations-- Order recieved!', // Subject line
             html: `<table bgcolor="#FFFFFF" cellpadding="0" cellspacing="0" class="nl-container" role="presentation"
             style="table-layout: fixed; vertical-align: top; min-width: 320px; Margin: 0 auto; border-spacing: 0; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-color: #FFFFFF; width: 100%;"
             valign="top" width="100%">
@@ -131,12 +131,12 @@ router.post('', jsonParser, (req, res) => {
                                 <div
                                   style="font-family: 'Montserrat', 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif; font-size: 12px; line-height: 14px; color: #555555;">
                                   <p style="font-size: 12px; line-height: 21px; text-align: center; margin: 0;"><span
-                                      style="font-size: 18px;"><strong>Orden: </strong> ` + result._id + `</span></p><br>
+                                      style="font-size: 18px;"><strong>Order: </strong> ` + result._id + `</span></p><br>
                                   <p style="font-size: 12px; line-height: 21px; text-align: center; margin: 0;"><span
                                       style="font-size: 18px;"><strong>Total: </strong>
                                       ` + result.total + `</span> </br> </p><br>
                                   <p style="font-size: 12px; line-height: 21px; text-align: center; margin: 0;"><span
-                                      style="font-size: 18px;"><strong>Fecha: </strong> ` + result.date + `</span></p>
+                                      style="font-size: 18px;"><strong>The date: </strong> ` + result.date + `</span></p>
                                 </div>
                               </div>
                               <!--[if mso]></td></tr></table><![endif]-->
@@ -146,8 +146,7 @@ router.post('', jsonParser, (req, res) => {
                                 <div
                                   style="font-size: 12px; line-height: 14px; color: #388e3c; font-family: 'Montserrat', 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif;">
                                   <p style="font-size: 12px; line-height: 21px; text-align: center; margin: 0;"><span
-                                      style="font-size: 18px;"><strong><span style="line-height: 21px; font-size: 18px;">Gracias
-                                          por su compra!</span></strong></span></p>
+                                      style="font-size: 18px;"><strong><span style="line-height: 21px; font-size: 18px;">Thank you for your patronage!</span></strong></span></p>
                                 </div>
                               </div>
                               <!--[if mso]></td></tr></table><![endif]-->
@@ -156,8 +155,7 @@ router.post('', jsonParser, (req, res) => {
                                 style="color:#989898;font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;line-height:120%;padding-top:10px;padding-right:10px;padding-bottom:30px;padding-left:10px;">
                                 <div
                                   style="font-size: 12px; line-height: 14px; color: #989898; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;">
-                                  <p style="font-size: 14px; line-height: 16px; text-align: center; margin: 0;">Para conocer
-                                    nuestros productos por favor visita: [link]</p>
+                                  <p style="font-size: 14px; line-height: 16px; text-align: center; margin: 0;">To view our freshest products, please visit <a href="https://laptopliquidations.com">LaptopLiquidations.com</a> </p>
                                 </div>
                               </div>
                               <!--[if mso]></td></tr></table><![endif]-->

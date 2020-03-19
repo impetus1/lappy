@@ -75,7 +75,7 @@ class Header extends Component {
         </MenuItem>
         <Divider />
         <Link to="/profile" style={{ textDecoration: "none" }}>
-          <MenuItem onClick={this.handleMenuClose}>Perfil</MenuItem>
+          <MenuItem onClick={this.handleMenuClose}>Profile</MenuItem>
         </Link>
         {adminMenu}
         <MenuItem onClick={this.onLogoutClick}>Log Out</MenuItem>
@@ -103,7 +103,7 @@ class Header extends Component {
     return (
       <Fragment>
         <Toolbar className={classes.toolbarMain}>
-          <a href="https://www.facebook.com/terralumx/" target="blank">
+          <a href="https://www.facebook.com/laptopliquidations/" target="blank">
             <Icon
               className={classes.socialIcons}
               path={mdiFacebookBox}
@@ -111,7 +111,7 @@ class Header extends Component {
               color="grey"
             />
           </a>
-          <a href="https://www.instagram.com/terralumx/" target="blank">
+          <a href="https://www.instagram.com/laptopliquidations/" target="blank">
             <Icon
               className={classes.socialIcons}
               path={mdiInstagram}

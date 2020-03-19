@@ -7,7 +7,8 @@ const db = process.env.MONGO_URI;
 mongoose
   .connect(
     db, {
-      useNewUrlParser: true
+      useNewUrlParser: true,
+      useUnifiedTopology: true
     }
   )
   .then(() => console.log("MongoDB successfully connected"))

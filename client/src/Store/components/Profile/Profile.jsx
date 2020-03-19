@@ -64,10 +64,10 @@ class Profile extends Component {
               color="textSecondary"
               gutterBottom
             >
-              Perfil
+              Account profile
             </Typography>
             <Typography variant="h5" component="h2">
-              {"Nombre: " + this.props.user.name}
+              {"Name: " + this.props.user.name}
             </Typography>
             <Typography className={classes.pos} color="textSecondary">
               <br />
@@ -77,7 +77,7 @@ class Profile extends Component {
               {"Address: " + this.props.user.address} <br />
             </Typography>
             <Typography className={classes.pos} color="textSecondary">
-              {"Teléfono: " + this.props.user.telephone}
+              {"Phone number: " + this.props.user.telephone}
             </Typography>
             <MaterialTable
               columns={orders}

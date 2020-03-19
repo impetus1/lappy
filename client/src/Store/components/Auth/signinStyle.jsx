@@ -18,9 +18,9 @@ const signinStyle = theme => ({
     marginTop: "5%",
     width: "auto",
     display: "block", // Fix IE11 issue.
-    marginRight: theme.spacing.unit * 3,
-    marginLeft: theme.spacing.unit * 3,
-    [theme.breakpoints.up(400 + theme.spacing.unit * 3 * 2)]: {
+    marginRight: theme.spacing(3),
+    marginLeft: theme.spacing(3),
+    [theme.breakpoints.up(400 + theme.spacing(3*2))]: {
       width: 400,
       marginLeft: "auto",
       marginRight: "auto"
@@ -31,14 +31,14 @@ const signinStyle = theme => ({
   },
   form: {
     width: "100%", // Fix IE11 issue.
-    marginTop: theme.spacing.unit
+    marginTop: theme.spacing()
   },
   noDeco: {
     textDecoration: "none",
     width: "100%"
   },
   submit: {
-    marginTop: theme.spacing.unit * 3
+    marginTop: theme.spacing(3)
   },
   iconBack: {
     minHeight: "30px",
@@ -46,12 +46,11 @@ const signinStyle = theme => ({
   },
   paper: {
     position: "relative",
-    marginTop: theme.spacing.unit * 8,
+    marginTop: theme.spacing(8),
     display: "flex",
     flexDirection: "column",
     alignItems: "center",
-    padding: `${theme.spacing.unit * 2}px ${theme.spacing.unit * 3}px ${theme
-      .spacing.unit * 3}px`
+    padding: `${theme.spacing(2)}px ${theme.spacing(3)}px ${theme.spacing(3)}px`
   },
   backBtn: {
     position: "absolute",
@@ -59,7 +58,7 @@ const signinStyle = theme => ({
     color: "#388e3c"
   },
   avatar: {
-    margin: theme.spacing.unit,
+    margin: theme.spacing(),
     backgroundColor: theme.palette.secondary.main
   },
   heroLogo: {

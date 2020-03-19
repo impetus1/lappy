@@ -14,14 +14,14 @@ export const registerUser = (userData, history) => dispatch => {
     .post("/api/users/register", userData)
     .then(res => {
       history.push("/login");
-      console.log("Usuario Registrado!");
+      console.log("User has been registered!");
     })
     .catch(err => {
       dispatch({
         type: GET_ERRORS,
         payload: err.response.data
       })
-      console.log("Error, intenta de nuevo.");
+      console.log("Error, this can only be atrributed to human error.");
     });
 };
 

@@ -44,7 +44,7 @@ const styles = theme => ({
       duration: theme.transitions.duration.leavingScreen
     }),
     overflowX: "hidden",
-    width: theme.spacing.unit * 7 + 1,
+    width: theme.spacing(7+1), 
     [theme.breakpoints.up("sm")]: {}
   },
   toolbar: {
@@ -56,7 +56,7 @@ const styles = theme => ({
   },
   content: {
     flexGrow: 1,
-    padding: theme.spacing.unit * 3,
+    padding: theme.spacing(3),
     backgroundColor: "white"
   },
   grow: {

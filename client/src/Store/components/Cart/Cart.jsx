@@ -46,7 +46,7 @@ const styles = theme => ({
     width: 195
   },
   button: {
-    margin: theme.spacing.unit
+    margin: theme.spacing(1.5)
   },
   cancel: {
     position: "absolute",
@@ -238,7 +238,7 @@ class Cart extends Component {
       console.log("Payment cancelled!", data);
       this.setState({
         openAlert: true,
-        alertMessage: "Pago cancelado",
+        alertMessage: "Your payment was cancelled and the item is back in inventory",
         alertTitle: "Error"
       });
       // You can bind the "data" object's value to your state or props or whatever here, please see below for sample returned data
@@ -248,7 +248,7 @@ class Cart extends Component {
       console.log("Error!", err);
       this.setState({
         openAlert: true,
-        alertMessage: "Error, intenta de nuevo por favor",
+        alertMessage: "Error, please make a new request",
         alertTitle: "Error"
       });
     };
@@ -259,7 +259,7 @@ class Cart extends Component {
           Your Cart
         </Typography>
         <br />
-        <Grid container spacing={40}>
+        <Grid container /*spacing={40}*/>
           <Grid item xs={12}>
             <Button
               variant="outlined"
@@ -279,7 +279,7 @@ class Cart extends Component {
             <PaypalExpressBtn
               env={"sandbox"}
               client={client}
-              currency={"MXN"}
+              currency={"USD"}
               total={parseFloat(this.props.total)}
               onError={onError}
               onSuccess={onSuccess}

@@ -79,9 +79,9 @@ router.post("/register", (req, res) => {
               user => {
                 res.json(user);
                 transporter.sendMail({
-                  from: 'terralumx@gmail.com', // sender address
+                  from: 'greenteam2021@gmail.com', // sender address
                   to: user.email, // list of receivers
-                  subject: 'Terralu - Usuario Registrado', // Subject line
+                  subject: 'New registered user-- LaptopLiquidations', // Subject line
                   html: `<table bgcolor="#FFFFFF" cellpadding="0" cellspacing="0" class="nl-container" role="presentation"
                   style="table-layout: fixed; vertical-align: top; min-width: 320px; Margin: 0 auto; border-spacing: 0; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-color: #FFFFFF; width: 100%;"
                   valign="top" width="100%">
@@ -125,7 +125,7 @@ router.post("/register", (req, res) => {
                                       <div
                                         style="font-family: 'Montserrat', 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif; font-size: 12px; line-height: 14px; color: #555555;">
                                         <p style="font-size: 12px; line-height: 21px; text-align: center; margin: 0;"><span
-                                            style="font-size: 18px;"><strong>Benvenido@</strong> ` + user.name + `</span> </br> Correo: ` + user.email + `</p>
+                                            style="font-size: 18px;"><strong>Welcome@</strong> ` + user.name + `</span> </br> Correo: ` + user.email + `</p>
                                       </div>
                                     </div>
                                     <!--[if mso]></td></tr></table><![endif]-->
@@ -135,8 +135,7 @@ router.post("/register", (req, res) => {
                                       <div
                                         style="font-size: 12px; line-height: 14px; color: #388e3c; font-family: 'Montserrat', 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif;">
                                         <p style="font-size: 12px; line-height: 21px; text-align: center; margin: 0;"><span
-                                            style="font-size: 18px;"><strong><span style="line-height: 21px; font-size: 18px;">Gracias
-                                                por Registrarte</span></strong></span></p>
+                                            style="font-size: 18px;"><strong><span style="line-height: 21px; font-size: 18px;">Congratulations on registering!</span></strong></span></p>
                                       </div>
                                     </div>
                                     <!--[if mso]></td></tr></table><![endif]-->
@@ -145,8 +144,7 @@ router.post("/register", (req, res) => {
                                       style="color:#989898;font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;line-height:120%;padding-top:10px;padding-right:10px;padding-bottom:30px;padding-left:10px;">
                                       <div
                                         style="font-size: 12px; line-height: 14px; color: #989898; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;">
-                                        <p style="font-size: 14px; line-height: 16px; text-align: center; margin: 0;">Para conocer
-                                          nuestros productos por favor visita: [link]</p>
+                                        <p style="font-size: 14px; line-height: 16px; text-align: center; margin: 0;">For our latest products, please visit <a href="https://www.laptopliquidations.com"></a></p>
                                       </div>
                                     </div>
                                     <!--[if mso]></td></tr></table><![endif]-->

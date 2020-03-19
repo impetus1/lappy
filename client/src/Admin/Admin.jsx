@@ -63,7 +63,7 @@ class Admin extends Component {
         onClose={this.handleMenuClose}
       >
         <Link to="/store" style={{ textDecoration: "none" }}>
-          <MenuItem onClick={this.handleMenuClose}>Tienda</MenuItem>
+          <MenuItem onClick={this.handleMenuClose}>Store</MenuItem>
         </Link>
         <MenuItem onClick={this.onLogoutClick}>Log Out</MenuItem>
       </Menu>
@@ -90,7 +90,7 @@ class Admin extends Component {
               <MenuIcon />
             </IconButton>
             <Typography variant="h6" color="inherit" noWrap>
-              Terralú
+              LaptopLiquidations
             </Typography>
             <div className={classes.grow} />
             <div className={classes.sectionDesktop}>

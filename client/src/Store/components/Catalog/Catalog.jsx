@@ -143,7 +143,7 @@ class Catalog extends Component {
                 color="textSecondary"
                 className={classes.button}
               >
-                {node.inStock > 0 ? `$${node.price} MXN` : "Out of Stock"}
+                {node.inStock > 0 ? `$${node.price} USD` : "Out of Stock"}
               </Typography>
             </CardActions>
           </Card>
@@ -153,7 +153,7 @@ class Catalog extends Component {
 
     return (
       <div className={classNames(classes.layout, classes.cardGrid)}>
-        <Grid container spacing={40}>
+        <Grid container /*spacing={40}*/>
           {render}
         </Grid>
         <Notification

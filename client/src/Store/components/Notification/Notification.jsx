@@ -7,7 +7,7 @@ import CloseIcon from "@material-ui/icons/Close";
 
 const styles = theme => ({
   close: {
-    padding: theme.spacing.unit / 2
+    padding: theme.spacing(.5)
   }
 });
 
@@ -32,8 +32,8 @@ class Notification extends React.Component {
           message={
             <span id="message-id">
               {this.props.msg.c === "a"
-                ? "Agregado a Carrito: "
-                : "Removido de Carrito: "}
+                ? "Added to cart: "
+                : "Removed from cart: "}
               {this.props.msg.message}
             </span>
           }

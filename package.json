@@ -1,7 +1,7 @@
 {
   "name": "terralu",
   "version": "1.0.0",
-  "description": "terralu ecommerce",
+  "description": "a laptop ecommerce site.",
   "main": "server.js",
   "scripts": {
     "client-install": "npm install --prefix client",
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/terralu/website.git"
+    "url": "git+https://impetus1@bitbucket.org/impetus1/laptopliquidations.git"
   },
   "keywords": [
     "e-commerce",
@@ -22,12 +22,12 @@
     "graphql",
     "react"
   ],
-  "author": "Juan Luis Flores",
+  "author": "Ivan was here",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/terralu/website/issues"
+    "url": "https://impetus1@bitbucket.org/impetus1/laptopliquidations.git"
   },
-  "homepage": "https://github.com/terralu/website#readme",
+  "homepage": "https://impetus1@bitbucket.org/impetus1/laptopliquidations.git",
   "dependencies": {
     "bcrypt": "^3.0.6",
     "bcryptjs": "^2.4.3",
@@ -45,6 +45,7 @@
     "passport": "^0.4.0",
     "passport-jwt": "^4.0.0",
     "passport-local": "^1.0.0",
+    "rc-footer": "^0.6.2",
     "validator": "^10.11.0"
   },
   "devDependencies": {

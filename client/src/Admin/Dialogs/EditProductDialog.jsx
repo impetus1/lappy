@@ -29,8 +29,8 @@ const styles = theme => ({
     flexWrap: "wrap"
   },
   textField: {
-    marginLeft: theme.spacing.unit,
-    marginRight: theme.spacing.unit
+    marginLeft: theme.spacing(),
+    marginRight: theme.spacing()
   },
   dense: {
     marginTop: 16
@@ -111,7 +111,7 @@ class EditProductDialog extends React.Component {
           onClose={this.handleCloseEdit}
           aria-labelledby="EditProductDialog"
         >
-          <DialogTitle id="EditProductDialog">Editar producto</DialogTitle>
+          <DialogTitle id="EditProductDialog">To edit a product</DialogTitle>
           <DialogContent>
             <form className={classes.container} noValidate autoComplete="off">
               <TextField
@@ -175,7 +175,7 @@ class EditProductDialog extends React.Component {
               direction="row"
               justify="center"
               alignItems="center"
-              spacing={24}
+              //spacing={24}
             >
               <Grid item xs={12} sm={6}>
                 <Typography variant="h6" gutterBottom>
