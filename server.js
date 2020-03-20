@@ -6,6 +6,7 @@ const routes = require('./routes');
 const PORT = process.env.PORT || 5000;
 const cors = require('cors');
 const path = require("path");
+require('dotenv').config();
 
 app.use(cors());
 // configure body parser for AJAX requests, Body Parser Middleware
