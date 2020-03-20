@@ -1,7 +1,7 @@
 {
-  "description": "Terralu Website",
-  "author": "Juan Luis Flores <jluisfgarza@gmail.com>, Abril Gonzalez <abril.gonzalezr@gmailcom>",
-  "name": "terralu",
+  "description": "Laptop Liquidations",
+  "author": "Ivan",
+  "name": "lappy",
   "version": "1.0.0",
   "private": true,
   "dependencies": {
