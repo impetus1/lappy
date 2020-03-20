@@ -3,7 +3,7 @@ const bodyParser = require('body-parser');
 const passport = require("passport");
 const app = express();
 const routes = require('./routes');
-const PORT = process.env.PORT || 8000;
+const PORT = process.env.PORT || 5000;
 const cors = require('cors');
 const path = require("path");
 require('dotenv').config();
