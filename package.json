@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://impetus1@bitbucket.org/impetus1/laptopliquidations.git"
+    "url": "git+https://github.com/impetus1/lappy.git"
   },
   "keywords": [
     "e-commerce",
@@ -25,9 +25,9 @@
   "author": "Ivan was here",
   "license": "ISC",
   "bugs": {
-    "url": "https://impetus1@bitbucket.org/impetus1/laptopliquidations.git"
+    "url": "https://github.com/impetus1/lappy.git"
   },
-  "homepage": "https://impetus1@bitbucket.org/impetus1/laptopliquidations.git",
+  "homepage": "https://github.com/impetus1/lappy.git",
   "dependencies": {
     "bcrypt": "^3.0.6",
     "bcryptjs": "^2.4.3",
